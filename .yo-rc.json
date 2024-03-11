@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0-rc.0",
+    "libraryName": "argetina",
+    "libraryId": "18f084e8-334f-4910-a9a9-79c211be2e06",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "argetina",
+    "solutionShortDescription": "argetina description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

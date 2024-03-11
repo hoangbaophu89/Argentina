@@ -1,0 +1,48 @@
+.fluentTable {
+    table {
+        table-layout: fixed;
+        border-collapse: collapse;
+        border-spacing: 0.25em;
+        width: 100%;
+        tr:last-child {
+            border: 0;
+        }
+        tr:last-child td {
+            border-bottom: 0;
+        }
+        th {
+            text-align: center;
+        }
+        th,
+        td {
+            vertical-align: middle;
+            border: 0.1px solid #e1e1e1;
+            border-width: 0 0.1px;
+            padding: 4px 4px;
+            border-bottom: 0.1px solid #e1e1e1;
+        }
+        th:first-child,
+        th + th,
+        td:first-child,
+        td + td {
+            border-left: 0;
+        }
+        th:last-child,
+        td:last-child {
+            padding-right: 0;
+            border-right: 0;
+        }
+        thead,
+        tbody {
+            display: block;
+        }
+        tbody {
+            height: calc(100vh - 140px);       /* Just for the demo          */
+            overflow-y: auto;    /* Trigger vertical scroll    */
+            overflow-x: hidden;  /* Hide the horizontal scroll */        
+        }
+        tbody::-webkit-scrollbar {
+            display: none!important;
+        }
+    }
+}
